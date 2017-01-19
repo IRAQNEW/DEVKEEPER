@@ -3,6 +3,9 @@ do local _ = {
   enabled_plugins = {
     "plugins",
     "masg",
+    "leaved",
+    "run11",
+    "run10",
     "admin",
     "filecam",
     "add",
