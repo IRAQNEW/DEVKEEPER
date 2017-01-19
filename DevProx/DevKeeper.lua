@@ -2,7 +2,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
-require("./DevProx/utils")
+require("./DevKeeper/utils")
 
 local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
 VERSION = assert(f:read('*a'))
@@ -212,81 +212,74 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "admin",
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
-    "supergroup",
-    "whitelist",
-    "msg_checks",
     "plugins",
-    "send",
-    "lk_fwd",
-    "lk_media",
-    "welcome",
-    "help",
-    "lk_tag",
-    "lk_username",
-    "lk_join",
-    "lk_english",
-    "lk_emoji",
-    "he1",
-    "he2",
-    "he3",
-    "he4",
-    "hedev",
-    "time",
-    "tagall",
-    "textphoto",
-    "sticker23",
-    "rebot",
-    "leave",
-    "block",
+    "masg",
+    "leaved",
+    "run11",
+    "run10",
+    "admin",
+    "filecam",
+    "add",
+    "addred",
+    "addwelcame",
+    "addword",
+    "alldelete",
+    "anti_ar",
+    "banhmmer",
+    "del_file",
     "dev",
-    "voice",
-    "weather",
-    "translate",
-    "writer",
-    "deltmsg",
-    "me",
-    "info",
-    "azan",
+    "devbot",
+    "help",
+    "help1",
+    "help2",
+    "help3",
+    "html",
+    "ingroup",
+    "KEEPER",
+    "wiat",
+    "speaks",
+    "kick",
+    "leave",
+    "leave_ban",
+    "leavebot",
+    "links",
+    "lock_cmd",
+    "members",
+    "newgroup",
+    "owners",
+    "replay",
+    "lockcmd",
+    "response",
     "run",
-    "info",
-    "iq_abs",
-    "remsg",
-    "run1",
-    "redis"
+    "save",
+    "sas",
+    "socket",
+    "sudo",
+    "spam",
+    "stats",
+    "tack",
+    "delete",
+    "addkep",
+    "delete",
+    "welcame",
+    "all",
+    "invite",
+    "SUPER2",
+    "ME",
+    "lockmedia",
+    "fwd",
+    "info3",
+    "lockbot"
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 218164567,302937024,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[🚏- اهلا بك عزيزي WeLcOmE
-سورس ديف بروكس ( DevProx )
-
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-Developer ⛳️🏒  :
-🔸 - @IQ_ABS
-Channel sors 🏈  :
-🔹 - @DEV_PROX
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-
-🛰 - رابط السورس :
-https://github.com/iqabs/DevProx.git : link in githup]],
-    help_text = [[ْDEV @IQ_ABS]],
-	help_text_super =[[ْDEV @IQ_ABS]],
-help_text_realm = [[ْDEV @IQ_ABS]],
+    about_text = [[اهلا وسهلا بك في سورس
+		DevKeeper
+		رابط السورس :
+https://github.com/IRAQNEW/DevKeeper.git : link in githup]],
+    help_text = [[ْDEV @DEV_KEEPER_NEW]],
+	help_text_super =[[ْDEV @DEV_KEEPER_NEW]],
+help_text_realm = [[ْDEV @DEV_KEEPER_NEW]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
