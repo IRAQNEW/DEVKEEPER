@@ -1,33 +1,49 @@
-#DevProx 🔱
-# channel [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX)
+#DevKeeper 🔱
+ channel [ၣ℡ DEV_KEEPER_NEW 🔵](https://telegram.me/DEV_KEEPER_NEW)
 👮 - #DEV 🏻-  @IQ_ABS
 * * *
 
 
-# التنصيب
-#1
+كيفيه تنصيب سورس  DEVKEEPER
+
+افتح ترمنال وخلي الامر هذا
+
 sudo apt-get update
 
-#2
+وبعده هذا 
+
+redis-server
+
+عوفع مفتوح 
+افتح ترمنال ثاني وخلي
+
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-#3
+وبعده
+
 sudo apt-get upgrade
 
-#4
-git clone https://github.com/iqabs/DevProx.git
+وبعده هذا 
 
-#5
-cd DevProx
+git clone https://github.com/IRAQNEW/DevKeeper.git
 
-#6
+وبعده 
+
+cd DevKeeper
+
+ وراهااا
+ 
 chmod +x launch.sh
 
-#7
+وهذاا
+
 ./launch.sh install
 
-#8
-./launch.sh انتضر شويه وراح يطلب رقمه خليه
+وراها
+
+./launch.sh
+
+انتضر شويه وراح يطلب رقمه خليه
 * * *
 
 ### Realm configuration
@@ -41,8 +57,8 @@ After you run the bot for first time, send it !id. Get your ID and stop the bot.
 Then restart the bot.
 * * *
 
-# Support and development [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX) 🐾
+# Support and development [ၣ℡ DEV_KEEPER_NEW 🔵](https://telegram.me/DEV_KEEPER_NEW) 🐾
 
 For managing on Telegram.
-ADD [@iMardona](https://telegram.me/iMardona) ❤️
-Subscribe to Source channel [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX) 
+ADD [@llX8Xll](https://telegram.me/llX8Xll) ❤️
+Subscribe to Source channel [ၣ℡ DEV_KEEPER_NEW 🔵](https://telegram.me/DEV_KEEPER_NEW) 
